@@ -1,0 +1,36 @@
+{
+  "name": "express-route-health",
+  "version": "0.0.1",
+  "description": "Returns health information about a running express server.",
+  "main": "index.js",
+  "repository": "https://github.com/molindo/express-route-health.git",
+  "author": "Jan Amann <jam@molindo.at>",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "route",
+    "health",
+    "healthcheck"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "prepublish": "npm run lint && npm run test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.9.0",
+    "eslint-config-molindo": "^1.0.0",
+    "eslint-plugin-css-modules": "2.7.5",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-import-order-autofix": "0.8.3",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prettier": "2.3.1",
+    "eslint-plugin-react": "7.4.0",
+    "jest": "21.2.1",
+    "prettier": "1.7.4"
+  }
+}
